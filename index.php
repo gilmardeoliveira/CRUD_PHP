@@ -11,19 +11,18 @@
 	<style type="text/css">
 		#tamanhoContainer{
 			width: 500px;
+			margin-top: 40px;
 		}
 		 
-		#botao{
-			background-color:#C86473;
-			color: #ffffff
-			font-weight: bold;
+		.form-group{
+			margin: 15px
 		}
 	</style>
 
 </head>
 <body>
 
-	<div class="container" id="tamanhoContainer" style="margin-top: 40px">
+	<div class="container" id="tamanhoContainer">
 		<h4>Formulário de Cadastro</h4>
 		<form action="_inserir_produto.php" method="post" style="margin-top: 20px;">
 				<div class="form-group">
@@ -61,7 +60,7 @@
 				</div>
 							<br>
 			<div style="text-align: right;">
-				<button type="submit" id="botao" class=" btn-sm">Cadastrar</button>
+				<button type="submit" id="botao" class=" btn-sm btn btn-danger">Cadastrar</button>
 			</div>
 		</form>
 	</div>

@@ -23,5 +23,5 @@ css">
 		<center>
 			<a href="index.php" role="button" class="btn btn-sm btn-primary">Cadastrar novo item</a>
 		</center>
-	</div><!--Botão cadastrar novamente-->
+	</div><!--Botão cadastrar novo item-->
 </div><!--Página de aviso cadastro-->

@@ -21,12 +21,10 @@
 			width: 500px;
 		}
 		 
-		#botao{
-			background-color:#C86473;
-			color: #ffffff
-			font-weight: bold;
-            
+		.form-group{
+			margin: 15px
 		}
+		
 	</style>
 
 </head>
