@@ -32,7 +32,7 @@
 
 	<div class="container" id="tamanhoContainer" style="margin-top: 40px">
 		<h4>Formulário de Cadastro</h4>
-		<form action="_inserir_produto.php" method="post" style="margin-top: 20px;">
+		<form action="_atualizar_produto.php" method="post" style="margin-top: 20px;">
 
             <?php
             $sql = "SELECT * FROM `estoque` WHERE id_estoque = $id";
