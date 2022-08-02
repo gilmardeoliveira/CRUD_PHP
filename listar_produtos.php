@@ -43,7 +43,9 @@
                     <td><?php echo $categoria ?></td>
                     <td><?php echo $quantidade ?></td>
                     <td><?php echo $fornecedor ?></td>
-                    <td><a role="button" class="btn btn-warning btn-sm" href="editar_produto.php?id=<?php echo $id_estoque ?>"><i class="fa-solid fa-pen-to-square"></i>&nbsp;Editar</a></td>
+                    <td><a role="button" class="btn btn-warning btn-sm" style="color: #000000" href="editar_produto.php?id=<?php echo $id_estoque ?>"><i class="fa-solid fa-pen-to-square"></i>&nbsp;Editar</a>
+                    <a role="button" class="btn btn-danger btn-sm" style="color: #fff"  href="deletar_produto.php?id=<?php echo $id_estoque ?>"><i class="fa-solid fa-trash-can"></i>&nbsp;Excluir</a></td>
+                    
 
                     <?php } ?>
                 </tr>
