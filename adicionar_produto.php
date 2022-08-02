@@ -23,6 +23,11 @@
 <body>
 
 	<div class="container" id="tamanhoContainer">
+
+		<div style="text-align: right">
+			<a href="index.php" role="button" class=" btn btn-sm btn-primary">Voltar</a>
+		</div><!--botão voltar-->
+
 		<h4>Formulário de Cadastro</h4>
 		<form action="_inserir_produto.php" method="post" style="margin-top: 20px;">
 				<div class="form-group">
@@ -60,9 +65,10 @@
 				</div>
 							<br>
 			<div style="text-align: right;">
-				<button type="submit" id="botao" class=" btn-sm btn btn-danger">Cadastrar</button>
+			<button type="submit" id="botao" class=" btn-sm btn btn-danger">Cadastrar</button>
 			</div>
 		</form>
+
 	</div>
 
 
