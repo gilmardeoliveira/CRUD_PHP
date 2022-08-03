@@ -12,7 +12,7 @@
             margin-top: 40px;
         }
         .form-group{
-			margin: 5px
+			
 		}
     </style>
 </head>
@@ -23,15 +23,14 @@
             </div><!--botão voltar-->
 
             <form action="_inserir_categoria.php" method="post" style="margin-top: 40px"> 
-                <h4>Cadastro de Categoria</h4>
+                    <h4>Cadastro de Categoria</h4>
                     <div class="form-group">
-                        <label>Categoria</label>
-                        <input type="text" name="categoria" class="form-control" placeholder="Digite o nome da Categoria">
-                    </div><!--imput categoria-->
-
+                        <input type="text" name="categoria" class="form-control" placeholder="Digite o nome da Categoria" autocomplete="off">
+                    </div><!--input categoria-->
+<br>
                     <div style="text-align: right">
-                        <button type="submit" id="botao" class=" btn-sm btn btn-danger" style="margin: 5px">Cadastrar</button>
-                    </div><!--imput botão cadastrar-->
+                        <button type="submit" id="botao" class=" btn-sm btn btn-danger" >Cadastrar</button>
+                    </div><!--input botão cadastrar-->
             </form>
         </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
