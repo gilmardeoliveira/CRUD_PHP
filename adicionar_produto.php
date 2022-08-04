@@ -6,7 +6,6 @@
 	<title>Formulário de Cadastro</title>
 	<link rel="stylesheet" href="css/bootstrap.
 	css">
-	<link rel="stylesheet" href="style.css">
 
 	<style type="text/css">
 		#tamanhoContainer{
@@ -42,10 +41,21 @@
 
 				<div class="form-group">
 					<label>Categoria</label>
-					<select class="form-control" name="categoria" required autocomplete="off">
-					<option>Periféricos</option>
-					<option>Hardware</option>
-					<option>Software</option>
+					<select class="form-control" name="categoria">
+					 	<?php
+
+							include 'conexao.php';
+							$sql = "SELECT * FROM categoria order by nome_categoria ASC";
+							$buscar = mysqli_query($conexao,$sql);
+
+							while ($array = mysqli_fetch_array($buscar)) {
+								$id_categoria = $array['id_categoria'];
+								$nome_categoria = $array['nome_categoria'];
+						?>
+							<option><?php echo $nome_categoria?></option>
+						<?php } ?>
+
+						
 					</select>
 				</div>
 			

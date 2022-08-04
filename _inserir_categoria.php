@@ -10,7 +10,7 @@ $inserir = mysqli_query($conexao,$sql);
 <div class="container" style="width:700px;margin-top:40px">
     <center>
         <h3>Categoria inserida com sucesso</h3>
-        <a href="index.php" class="btn btn-sm btn-warning">Voltar Home</a>
-        <a href="_inserir_categoria.php" class="btn btn-sm btn-primary">Cadastrar outra Categoria</a>
+        <a href="index.php" class="btn btn-sm btn-warning">Home</a>
+        <a href="adicionar_categoria.php" class="btn btn-sm btn-primary">Voltar</a>
     </center>
 </div>

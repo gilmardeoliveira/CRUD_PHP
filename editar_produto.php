@@ -31,6 +31,11 @@
 <body>
 
 	<div class="container" id="tamanhoContainer" style="margin-top: 40px">
+
+		<div style="text-align: right">
+            <a href="listar_produtos.php" role="button" class=" btn btn-sm btn-primary">Voltar</a>
+
+        </div><!--Botão voltar-->
 		<h4>Formulário de Cadastro</h4>
 		<form action="_atualizar_produto.php" method="post" style="margin-top: 20px;">
 

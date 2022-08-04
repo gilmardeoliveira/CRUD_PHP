@@ -25,7 +25,7 @@
             <form action="_inserir_categoria.php" method="post" style="margin-top: 40px"> 
                     <h4>Cadastro de Categoria</h4>
                     <div class="form-group">
-                        <input type="text" name="categoria" class="form-control" placeholder="Digite o nome da Categoria" autocomplete="off">
+                        <input type="text" name="categoria" class="form-control" placeholder="Digite o nome da Categoria" autocomplete="off" >
                     </div><!--input categoria-->
 <br>
                     <div style="text-align: right">
@@ -33,6 +33,6 @@
                     </div><!--input botão cadastrar-->
             </form>
         </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
 </body>
 </html>
