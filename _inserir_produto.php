@@ -21,7 +21,8 @@ css">
 
 	<div style="padding-top: 20px">
 		<center>
-			<a href="index.php" role="button" class="btn btn-sm btn-primary">Cadastrar novo item</a>
+			<a href="index.php" role="button" class="btn btn-sm btn-warning">Home</a>
+			<a href="adicionar_produto.php" role="button" class="btn btn-sm btn-primary">Voltar</a>
 		</center>
 	</div><!--Botão cadastrar novo item-->
 </div><!--Página de aviso cadastro-->
