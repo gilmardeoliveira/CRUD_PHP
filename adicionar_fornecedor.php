@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,7 +20,7 @@
         </div><!--botão voltar-->
 
         <form action="_inserir_fornecedor.php" method="post" style="margin-top: 40px">
-            <h4>Adicionar Fornecedores</h4>
+            <h4>Adicionar Fornecedor</h4>
             <div class="form-group">
                 <input type="text" name="fornecedor" class="form-control" placeholder="Insira o fornecedor" autocomplete="off">
             </div><!--input fornecedor-->

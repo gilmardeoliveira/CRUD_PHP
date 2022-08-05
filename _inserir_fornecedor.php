@@ -2,7 +2,7 @@
     include 'conexao.php';
 
     $fornecedor = $_POST['fornecedor'];
-    echo $sql = "INSERT INTO fornecedor (nome_fornecedor) values ('$fornecedor')";
+    $sql = "INSERT INTO fornecedor (nome_fornecedor) values ('$fornecedor')";
     $inserir = mysqli_query($conexao,$sql);
 
 ?>
