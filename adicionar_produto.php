@@ -68,10 +68,10 @@
 				<div class="form-group">
 					<label>Fornecedor</label>
 					<select class="form-control" name="fornecedor" required autocomplete="off">
-						<option>Fornecedor A</option>
-						<option>Fornecedor B</option>
-						<option>Fornecedor C</option>
-					</select>
+					
+						<option>#</option>
+						
+					</select><!--Select fornecedor-->
 				</div>
 							<br>
 			<div style="text-align: right;">

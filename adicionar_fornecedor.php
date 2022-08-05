@@ -11,9 +11,6 @@
             width: 500px;
             margin-top: 40px;
         }
-        .form-group{
-			
-		}
     </style>
 </head>
 <body>
@@ -25,15 +22,15 @@
         <form action="_inserir_fornecedor.php" method="post" style="margin-top: 40px">
             <h4>Adicionar Fornecedores</h4>
             <div class="form-group">
-                <input type="text" name="fornecedor" class="form-control" placeholder="Insira o fornecedor">
+                <input type="text" name="fornecedor" class="form-control" placeholder="Insira o fornecedor" autocomplete="off">
             </div><!--input fornecedor-->
 <br>
             <div style="text-align: right">
                         <button type="submit" id="botao" class=" btn-sm btn btn-danger" >Cadastrar</button>
                     </div><!--input botão cadastrar-->
         
-        </form>
-    </div>
+        </form><!--formulário-->
+    </div><!--container-->
     
 </body>
 </html>
